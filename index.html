@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>POMORO</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/timer.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/control-pomodoro.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/control-timer.css" />
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js" integrity="sha384-z9ZOvGHHo21RqN5De4rfJMoAxYpaVoiYhuJXPyVmSs8yn20IE3PmBM534CffwSJI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="CONTENT">
+        <div id="REGION-TOP">
+            <h1 id="TITLE">POMORO</h1>
+            <div id="CONTROL-POMODORO">
+                <button id="BTN-POMODORO" class="secondary-red">POMODORO</button>
+                <button id="BTN-LONGBREAK" class="secondary-green">LONG BREAK</button>
+                <button id="BTN-SHORTBREAK" class="secondary-green">SHORT BREAK</button>
+            </div>
+        </div>
+        <div id="REGION-MID">
+            <canvas id="CANVAS-TIMER"></canvas>
+            <div id="TIMER">
+                <p id="TIMER-MIN">00</p>
+                <p>:</p>
+                <p id="TIMER-SEC">00</p>
+            </div>
+        </div>
+
+        <div id="REGION-BOT">
+            <div id="CONTROL-TIMER">
+                <button id="BTN-START"><i class="fa fa-play"></i></button>
+                <button id="BTN-STOP"><i class="fa fa-stop"></i></button>
+                <button id="BTN-RESET"><i class="fas fa-sync-alt"></i></button>
+                <button id="BTN-SETTINGS"><i class="fa fa-cog"></i></button>
+            </div>
+        </div>
+
+
+        <div id="MODAL-SETTINGS">
+            <div id="MODAL-HEADER">
+                <h3 id="MODAL-TITLE">Settings</h3>
+                <button id="MODAL-CLOSE"><i class="fas fa-times"></i></button>
+            </div>
+            <div id="MODAL-CONTENT">
+                <form name="settings">
+                    <p>POMODORO</p>
+                    <input type="number" min="1" name="pomodoro" class="settings-textbox">
+                    <p>SHORT BREAK:</p>
+                    <input type="number" min="1" name="shortbreak" class="settings-textbox">
+                    <p>LONG BREAK:</p>
+                    <input type="number" min="1" name="longbreak" class="settings-textbox"><br>
+                    <input type="button" name="save" value="Save">
+                    <p id="SETTINGS-NOTIFICATION"></p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/bundle.js"></script>
+</body>
+
+</html>

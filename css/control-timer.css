@@ -1,0 +1,30 @@
+#CONTROL-TIMER {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#CONTROL-TIMER > button {
+
+    background-color: black;
+    color: white;
+
+    font-size: 1.5em;
+    margin: 0em 0.25em;
+
+    height: 1.75em;
+    width: 1.75em;
+    border-radius: 50%;
+    border: none;
+
+    text-align: center;
+    line-height: 50%;
+    vertical-align: middle;
+
+    cursor: pointer;
+}
+
+#CONTROL-TIMER > button:hover {
+    background-color: #292F36;
+}
