@@ -1,13 +1,13 @@
-# pomoro
+# pomoro v2.0
 [TRY IT!](https://malcolmrjones.github.io/pomoro/)
 
 *A simple timer for the pomodoro technique.*
 
-Pomoro is written in HTML, CSS, and Typescript
+Pomoro is written in HTML, CSS, and Javascript
 
-Pomoro utilizes HTML5 Canvas and CSS3 Flexbox
+Pomoro uses Vue.js
 
-![Pomoro](https://i.imgur.com/A3zMWgH.png)
+![Pomoro](https://imgur.com/a/UMGBv5d)
 
 
 
