@@ -7,7 +7,7 @@ Pomoro is written in HTML, CSS, and Javascript
 
 Pomoro uses Vue.js
 
-![Pomoro](https://imgur.com/a/UMGBv5d)
+![Pomoro](https://i.imgur.com/LysTZkP.png)
 
 
 
