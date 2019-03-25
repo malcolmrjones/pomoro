@@ -1,5 +1,0 @@
-# Compile typescript files
-npx tsc
-
-# Bundle modules
-npx browserify js/main.js > js/bundle.js
